@@ -8,7 +8,8 @@ $db = new PDO ('mysql:host=localhost;dbname=pizzastore', 'root', '');
 }
 
 //récupérer pizza id 3
-//rfécupérer l'id a partir de l'url
+//récupérer l'id a partir de l'url
+
 $id = $_GET ['id'];
 $query = $db->query('SELECT * FROM pizza WHERE id = '.$id);
 $pizza = $query->fetch();
