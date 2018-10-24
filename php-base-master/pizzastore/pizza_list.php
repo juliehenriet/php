@@ -4,7 +4,7 @@ require_once(__DIR__.'/partials/header.php');
 
 
    <div class="starter-template">
-        <h1>Mon site pizza store</h1>
+        <h1>liste des pizzas</h1>
    </main><!-- /.container -->
 
     <?php
