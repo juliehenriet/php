@@ -8,7 +8,7 @@ Au niveau du php on va créer quelques fichiers/dossier :
 -config/database.php -> connexion a la base de données en pdo, sera inclus dans tous les fichiers php
 -Index.php -> la page d'accueuil du site
 -partials/header.php -> le header du site a inclure dans toutes les pages (bootstrap cdn)
--partials/header.php -> le footer du site a inclure dans toutes les pages
+-partials/footer.php -> le footer du site a inclure dans toutes les pages
 -pizza_list.php -> lister toutes les pizzas de la base de données
 -pizza_single.php/ -> la page d'une pizza seule
 

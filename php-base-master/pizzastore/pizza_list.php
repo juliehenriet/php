@@ -1,4 +1,5 @@
 <?php
+$currentPageTitle = 'nos pizzas';
 require_once(__DIR__.'/partials/header.php');
  ?>
 
@@ -9,4 +10,8 @@ require_once(__DIR__.'/partials/header.php');
 
     <?php
     require_once(__DIR__.'/partials/footer.php');
+
+    foreach ($pizzas as $pizza) {
+    echo ' ' .$pizza['name'];
+    }
      ?>
