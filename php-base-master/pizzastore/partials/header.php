@@ -15,7 +15,7 @@ require_once(__DIR__.'/../config/config.php');
     <meta name="author" content="">
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="/pizzastore/asset/style/style.css">
+<link rel="stylesheet" href="../asset/style/style.css" >
 
     <title>
       <?php

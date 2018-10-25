@@ -1,1 +1,9 @@
+.card-img-top:{
+  transition: 0.5s;
+}
 
+.card-img-top-zoom-effect:hover{
+  cursor: pointer;
+ transform: scale(1.5);
+
+}
