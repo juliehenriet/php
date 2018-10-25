@@ -8,9 +8,6 @@ $db = new PDO ('mysql:host=localhost;dbname=pizzastore', 'root', '');
 
 
 
-$query = $db->query('SELECT * FROM pizza');
-
-$pizzas = $query->fetchAll();
 
 
 ?>
